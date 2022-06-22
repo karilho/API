@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
+	"github.com/karilho/API/routes"
+)
+
+// Aqui é só a mensagem pro meu terminal mesmo, o handlerequest esta em routes.
 func main() {
-	fmt.Println("Começando e treinando o git")
+	fmt.Println("Iniciando o servidor Rest com Go")
+	routes.HandleRequest()
+
 }
