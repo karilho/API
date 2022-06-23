@@ -1,3 +1,5 @@
-module github.com/Karilho/API
+module github.com/karilho/API
 
 go 1.18
+
+require github.com/gorilla/mux v1.8.0 // indirect
